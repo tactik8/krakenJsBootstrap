@@ -42,12 +42,12 @@ export function footer(logo, heading1, link_names, link_urls ){
         
             <div class="col mb-3">
             
-                <span class="kr-other">${other_1}</span>
+                <span class="kr-other"></span>
             </div>
         
             <div class="col mb-3">
              
-                <span class="kr-other">${other_2}</span>
+                <span class="kr-other"></span>
             </div>
         
             <div class="col mb-3">
@@ -105,3 +105,14 @@ export function footer(logo, heading1, link_names, link_urls ){
 
 
 
+
+
+function remove_elements_by_tagName(element, tagName){
+
+    while(element.getElementsByTagName(tagName).length > 0){
+        element.getElementsByTagName(tagName)[0].remove();
+    };
+    return;
+
+
+}

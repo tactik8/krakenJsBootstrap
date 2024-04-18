@@ -1,5 +1,8 @@
 import { kraken_bootstrap } from './kraken_bootstrap/kraken_bootstrap.js';
+//import { kraken_bootstrap } from 'https://cdn.jsdelivr.net/gh/tactik8/krakenJsBootstrap@main/kraken_bootstrap/kraken_bootstrap.js';
 
+
+//https://cdn.jsdelivr.net/gh/tactik8/krakenJsBootstrap@main/kraken_bootstrap/kraken_bootstrap.js
 
 let m = kraken_bootstrap.main;
 

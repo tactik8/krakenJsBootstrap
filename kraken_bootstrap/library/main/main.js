@@ -13,21 +13,28 @@ import { pagination } from './pagination/pagination.js';
 import { star_rating } from './star_rating/star_rating.js';
 import { testimonial } from './testimonial/testimonial.js';
 import { invoice } from './invoice/invoice.js';
+import { jsonTable } from './jsonTable/jsonTable.js'
+
 
 export var main = {
 
-    avatar: avatar,
-    card: card,
-    cardGrid: cardGrid,
-    features: features,
-    footer: footer,
-    header: header,
-    hero: hero,
-    invoice: invoice,
-    pagination: pagination,
-    pricing: pricing,
-    star_rating: star_rating,
-    table: table,
-    testimonial: testimonial
-
+    parts: {
+        avatar: avatar,
+        card: card,
+        cardGrid: cardGrid,
+        jsontable: jsontable,
+        pagination: pagination,
+        star_rating: star_rating,
+        table: table,
+    },
+    components: {
+        features: features,
+        footer: footer,
+        header: header,
+        hero: hero,
+        invoice: invoice,
+        pricing: pricing,
+        testimonial: testimonial
+    }
+    
 }

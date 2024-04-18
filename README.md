@@ -1,6 +1,46 @@
+# kraken_js_bootstrap
+
+Bootstrap html component library 
 
 
 
-import { kraken_html } from 'https://a8ee9b8c-353c-42a3-871a-b231f4830b4a-00-3164oqpkcpyfz.riker.replit.dev/kraken_bootstrap/kraken_bootstrap.js';
+## How to use
 
 
+
+```
+
+import { kraken_bootstrap } from 'https://cdn.jsdelivr.net/gh/tactik8/krakenJsBootstrap@main/kraken_bootstrap/kraken_bootstrap.js'
+
+let b = kraken_bootstrap.main;
+
+let d = document.getElementById('test_card');
+
+let table = b.table(records);
+
+d.appendChild(table);
+
+
+```
+
+## Libraries
+- main
+
+
+## Components
+
+- parts
+    - avatar
+    - card
+    - cardGrid
+    - pagination
+    - star_rating
+    - table
+- components
+    - features
+    - footer
+    - header
+    - hero
+    - invoice
+    - pricing
+    - testimonial
