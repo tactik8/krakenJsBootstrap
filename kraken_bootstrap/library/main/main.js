@@ -14,7 +14,7 @@ import { star_rating } from './star_rating/star_rating.js';
 import { testimonial } from './testimonial/testimonial.js';
 import { invoice } from './invoice/invoice.js';
 import { jsonTable } from './jsonTable/jsonTable.js'
-
+import { chart } from './chart/chart.js'
 
 export var main = {
 
