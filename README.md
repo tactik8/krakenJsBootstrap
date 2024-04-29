@@ -10,7 +10,7 @@ Bootstrap html component library
 
 ```
 
-import { kraken_bootstrap } from 'https://cdn.jsdelivr.net/gh/tactik8/krakenJsBootstrap@main/kraken_bootstrap/kraken_bootstrap.js'
+import { kraken_bootstrap } from 'https://tactik8.github.io/krakenJsBootstrap/kraken_bootstrap/kraken_bootstrap.js'
 
 let b = kraken_bootstrap.main;
 
