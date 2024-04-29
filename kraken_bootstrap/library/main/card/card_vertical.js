@@ -38,7 +38,7 @@ export function card_vertical(image_url='', heading1='', text='', other=''){
 
     part_element.innerHTML = content;
 
-    return part_element;
+    return part_element.firstChild;
 
 }
 
