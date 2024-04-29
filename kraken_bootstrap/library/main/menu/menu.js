@@ -13,7 +13,7 @@ export function menu(menu_Id, actions, other){
 
     
 
-    let content = `<div class="dropdown">
+    let content = `<div class="dropdown krProperty">
           
           <a href="#" type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             ${getThreeDotsIcon()}
@@ -35,17 +35,18 @@ export function menu(menu_Id, actions, other){
 function getMenuItem(action){
 
 
-    let content = `<a class="dropdown-item" href="#">
+    let content = `<div class="krThing">
+    <a class="dropdown-item krProperty" href="#" data-propertyID="url">
     
         <div class="row justify-content-between">
-            <div class="col-4">
+            <div class="col-4 krProperty" data-propertyID="name">
               ${action.name}
             </div>
-            <div class="col-4">
+            <div class="col-4 krProperty" data-propertyID="image">
               ${action.image}
             </div>
           </div>
-    </a></li>`
+    </a></li></div>`
     return content
     
 }

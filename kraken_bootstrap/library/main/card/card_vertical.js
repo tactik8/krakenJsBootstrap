@@ -26,12 +26,12 @@ export function card_vertical(image_url='', heading1='', text='', other=''){
     let part_element = document.createElement('div');
 
     let content =  `
-        <div class="card" style="width: 18rem;">
-          <img src="${image_url}" class="card-img-top kr-image" alt="">
+        <div class="card krThing" style="width: 18rem;">
+          <img src="${image_url}" class="card-img-top krProperty" alt="" data-propertyID="image">
           <div class="card-body">
-            <h5 class="card-title kr-heading1">${String(heading1)}</h5>
-            <p class="card-text kr-content">${String(text)}</p>
-            <span class="card-other kr-other">${String(other)}</span>
+            <h5 class="card-title krProperty" data-propertyID="heading1">${String(heading1)}</h5>
+            <p class="card-text krProperty" data-propertyID="heading2">${String(text)}</p>
+            <span class="card-other krProperty" data-propertyID="description">${String(other)}</span>
           </div>
         </div>`;
 
