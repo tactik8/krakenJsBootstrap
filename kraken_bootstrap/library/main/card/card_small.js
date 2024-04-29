@@ -28,17 +28,17 @@ export function card_small(image_url, heading1, text, other) {
 
     let content = `
         
-        <div class="row align-items-center">
+        <div class="row align-items-center krThing">
             <div class="col-auto">
-                <img src="${String(image_url)}" alt="" class="kr-image img-fluid rounded-circle" width=48 height=48>
+                <img src="${String(image_url)}" alt="" class="krProperty img-fluid rounded-circle" width=48 height=48 data-propertyID="image">
             </div>
             <div class="col ps-1">
                 <ul class="list-unstyled mb-0 mt-0">
-                <li class="m-0">
+                <li class="krProperty m-0" data-propertyID="heading1">
                         ${String(heading1)}
                 </li>
                 <li class="m-0">
-                    <small>    ${String(text)} </small>
+                    <small class="krProperty" data-propertyID="heading2">    ${String(text)} </small>
                 </li>
                 </ul>
             </div>
