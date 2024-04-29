@@ -15,17 +15,33 @@ import { testimonial } from './testimonial/testimonial.js';
 import { invoice } from './invoice/invoice.js';
 import { jsonTable } from './jsonTable/jsonTable.js'
 import { chart } from './chart/chart.js'
+import { menu } from './menu/menu.js'
 
 export var main = {
-
+    avatar: avatar,
+    card: card,
+    cardGrid: cardGrid,
+    jsontable: jsonTable,
+    pagination: pagination,
+    star_rating: star_rating,
+    table: table,
+    menu: menu,
+    features: features,
+    footer: footer,
+    header: header,
+    hero: hero,
+    invoice: invoice,
+    pricing: pricing,
+    testimonial: testimonial,
     parts: {
         avatar: avatar,
         card: card,
         cardGrid: cardGrid,
-        jsontable: jsontable,
+        jsontable: jsonTable,
         pagination: pagination,
         star_rating: star_rating,
         table: table,
+        menu: menu
     },
     components: {
         features: features,
@@ -36,5 +52,5 @@ export var main = {
         pricing: pricing,
         testimonial: testimonial
     }
-    
+
 }

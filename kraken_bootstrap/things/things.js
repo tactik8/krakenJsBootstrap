@@ -92,7 +92,7 @@ function get_footer(record){
         link_urls.push(record.hasPart[i].url);
     };
     
-    let html_element = library.main.footer(
+    let html_element = library.main.components.footer(
         data.image(record),
         data.heading1(record),
         link_names,
@@ -220,3 +220,4 @@ function get_table(records){
     return html_element;
 
 }
+
